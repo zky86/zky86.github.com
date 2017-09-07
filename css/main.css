@@ -323,8 +323,9 @@ title{
 
 .p5th .time {
     position: absolute;
-    left: -0.31rem;
+    left: -0.32rem;
     top:0;
+    font-size: 0.16rem;
 }
 
 .p5th .time .circle{
@@ -343,7 +344,9 @@ title{
     position: relative;
     display: -webkit-box;
     display: box;
-    padding: 0.5rem 0 0.3rem 0;
+    padding: 0.4rem 0 0.3rem 0;
+    margin-top: 0.20rem;
+    margin-bottom:0.20rem;
 
 }
 
