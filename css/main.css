@@ -1,6 +1,7 @@
 /* 
 *Theme Name: 郑康源个人求职简历
 *Author URI: https://github.com/zky86
+*qq: 272495222
 */
 
 /** 清除内外边距 **/
@@ -148,11 +149,16 @@ title{
 
 
 .header .list{
-    padding-top: 0.2rem;
+    display: -webkit-box;
+    padding-top: 0.15rem;
+    box-pack: end;
+    -webkit-box-pack: end;
 }
 .header .list li{
-    float: left;
+    display: -webkit-box;
+    display: box;
     margin-left: 0.30rem;
+    
 }
 
 .header .list img{
@@ -162,6 +168,11 @@ title{
     margin-right: 0.05rem;
 }
 
+
+.header  .rbox {
+    box-flex: 1;
+    -webkit-box-flex: 1;
+}
 
 .p1th{
     padding: 0.40rem 0 0rem 0;
@@ -199,6 +210,7 @@ title{
     font-size: 0.16rem;
     padding-left: 0.2rem;
     position: relative;
+    box-sizing: border-box;
 
 }
 
@@ -255,31 +267,28 @@ title{
 }
 
 .p3th .list{
-    display: -webkit-box;
-    display: box;
 
 }
 
 .p3th li{
     box-flex: 1;
     -webkit-box-flex: 1;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
-    padding: 0.0rem 0.3rem 0.0rem 0.3rem;
+
+    margin: 0.3rem 15% 0.3rem 15% ;
     font-size: 0.30rem;
+    padding-bottom: 0.3rem;
     color: #999;
     display: -webkit-box;
     display: box;
     
-
 }
 
 .p3th li:nth-child(1){
-    border-right: 1px dashed #cacaca;
+    border-bottom: 1px dashed #cacaca;
 }
 
 .p3th  .img{
-    width: 2rem;
+    width: 1.5rem;
     margin-right: 0.3rem;
 }
 
@@ -288,7 +297,7 @@ title{
     width: 100%;
 }
 .p3th  .txt{
-    padding-top: 0.52rem;
+    padding-top: 0.54rem;
     font-size: 0.18rem;
     box-flex: 1;
     -webkit-box-flex: 1;
@@ -300,13 +309,7 @@ title{
 }
 
 
-.p3th li:nth-child(2) .img {
-    margin-right: 0
-}
 
-.p3th li:nth-child(2) .txt {
-    margin-right: 0.3rem;
-}
 
 
 .p5th{
@@ -354,6 +357,12 @@ title{
     margin-right: 0.2rem;
 }
 
+.p5th .time-line .col{
+    box-flex: 1;
+    -webkit-box-flex: 1;
+}
+
+
 .p5th .time-line .c{
     color: #81bc00;
     font-size: 0.20rem;
@@ -381,7 +390,7 @@ title{
 
 
 .p6th{
-    margin-top: 0.4rem;
+    margin-top: 0.5rem;
     background: #fafafa;
     padding: 0.40rem 0 0rem 0;
 }
@@ -419,7 +428,7 @@ title{
 
 .p6th .img{
     width: 3.2rem;
-    margin-left: 0.50rem;
+    margin-left: 0.60rem;
 }
 .p6th .img img{
     width: 100%;
@@ -455,11 +464,21 @@ title{
     border-bottom: none;
 }
 
+.p6th .link{
+    color: #0399e6;
+    font-size: 0.18rem;
+    padding: 0.10rem 0 0 0;
+    text-align: right;
+}
+.p6th .link a{
+    color: #0399e6;
+}
+
 
 .footer{
+    color: #a9a9a9;
     line-height: 0.24rem;
     border-top: 1px solid #ddd;
-    color: #666;
     padding: 0.4rem 0;
     border-bottom: 1px solid #ddd;
 }
@@ -467,9 +486,12 @@ title{
 .footer a{
     color: #2b90d4;
 }
+.footer .cor{
+    color: #2b90d4;
+}
 
 .footer .lbox .img{
-    width: 0.65rem;
+    width: 0.68rem;
 
 }
 .footer .lbox .img img{
@@ -477,10 +499,45 @@ title{
 }
 .footer .lbox .title{
     font-size: 0.14rem;
-    padding: 0.09rem 0 0 0.12rem;
+    padding: 0.0rem 0 0 0.12rem;
 }
 .footer .rbox {
     text-align: right;
+    box-flex: 1;
+    -webkit-box-flex: 1;
 }
+
+
+/* 针对移动端兼容 */
+
+.wap{}
+.wap .header,
+.wap .p1th,
+.wap .p2th,
+.wap .p3th,
+.wap .p4th,
+.wap .p5th,
+.wap .p6th,
+.wap .footer{
+    padding: 0.10rem;
+}
+.wap .main{
+    width: auto
+}
+.wap .p3th  .txt{
+    padding-top: 0.08rem
+}
+.wap .p5th .time-line .col{
+    padding-right: 0.10rem
+}
+.wap .footer{
+    line-height: 0.32rem
+}
+.wap p{
+    padding-top: 0.1rem;
+}
+
+
+
 
 
