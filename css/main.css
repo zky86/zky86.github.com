@@ -1,6 +1,7 @@
-/* Theme Name:poco ued theme
-Author URI:poco.cn
-Description:poco */
+/* 
+*Theme Name: 郑康源个人求职简历
+*Author URI: https://github.com/zky86
+*/
 
 /** 清除内外边距 **/
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
@@ -151,12 +152,12 @@ title{
 }
 .header .list li{
     float: left;
-    margin-right: 0.30rem;
+    margin-left: 0.30rem;
 }
 
 .header .list img{
     vertical-align: middle;
-    width: 26px;
+    width: 0.26rem;
     border-radius: 50%;
     margin-right: 0.05rem;
 }
@@ -174,7 +175,6 @@ title{
     font-size: 0.38rem;
 }
 .p1th .des{
-    padding-top: 0.05rem;
     font-size: 0.30rem;
     color: #999;
 }
@@ -196,7 +196,7 @@ title{
     background: #d5effe;
     color: #2289d4;
     margin-bottom: 0.2rem;
-    font-size: 16px;
+    font-size: 0.16rem;
     padding-left: 0.2rem;
     position: relative;
 
@@ -204,7 +204,7 @@ title{
 
 .p2th .list li:before{
     content: '';
-    width:3px;
+    width:0.04rem;
     background: #2289d4;
     height: 0.40rem;
     position: absolute;
@@ -249,7 +249,7 @@ title{
     font-size: 0.38rem;
 }
 .p3th .des{
-    padding-top: 0.05rem;
+
     font-size: 0.30rem;
     color: #999;
 }
@@ -324,7 +324,7 @@ title{
 .p5th .time {
     position: absolute;
     left: -0.32rem;
-    top:0;
+    top:-0.01rem;
     font-size: 0.16rem;
 }
 
@@ -334,7 +334,7 @@ title{
     height: 0.20rem;
     border-radius: 50%;
     background: #2b90d4;
-    vertical-align: -3px;
+    vertical-align: -0.03rem;
     font-size: 0.16rem;
     margin-right: 0.05rem;
 }
@@ -344,7 +344,7 @@ title{
     position: relative;
     display: -webkit-box;
     display: box;
-    padding: 0.4rem 0 0.3rem 0;
+    padding: 0.4rem 0 0.4rem 0;
     margin-top: 0.20rem;
     margin-bottom:0.20rem;
 
@@ -359,9 +359,17 @@ title{
     font-size: 0.20rem;
 }
 
+.p5th .time-line .c a{
+    color: #81bc00;
+}
+
+.p5th .time-line .pc a{
+    color: #4f90d2;
+}
+
 .p5th .time-line .j{
     color: #999;
-    font-size: 0.14rem;
+    font-size: 0.15rem;
 }
 
 .p5th .time-line .des{
@@ -369,3 +377,110 @@ title{
     font-size: 0.16rem;
     line-height: 0.28rem;
 }
+
+
+
+.p6th{
+    margin-top: 0.4rem;
+    background: #fafafa;
+    padding: 0.40rem 0 0rem 0;
+}
+
+.p6th .title{
+    font-size: 0.38rem;
+}
+.p6th .des{
+    font-size: 0.30rem;
+    color: #999;
+}
+
+
+.p6th .item{
+    display: -webkit-box;
+    display: box;
+    margin: 0 0.40rem;
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.p6th .content{
+    box-flex: 1;
+    -webkit-box-flex: 1;
+}
+.p6th .content .title{
+    font-size: 0.24rem;
+}
+
+.p6th .item-wrap{
+    padding-top: 0.4rem;
+}
+
+
+.p6th .img{
+    width: 3.2rem;
+    margin-left: 0.50rem;
+}
+.p6th .img img{
+    width: 100%;
+}
+
+.p6th .tag{
+    margin-top: 0.08rem;
+}
+.p6th .tag .t{
+    display: inline-block;
+    border-radius: 0.05rem;
+    background: #7bbc00;
+    color: #fff;
+    padding: 0.02rem 0.08rem;
+    margin-right: 0.05rem;
+}
+
+.p6th .info{
+    margin-top: 0.08rem;
+    font-size: 0.16rem;
+    line-height: 0.24rem;
+}
+
+
+.p6th .item li{
+    margin-top: 0.05rem;
+    list-style-type: decimal;
+    margin-left: 0.18rem;
+}
+
+
+.p6th .item:nth-last-child(1){
+    border-bottom: none;
+}
+
+
+.footer{
+    line-height: 0.24rem;
+    border-top: 1px solid #ddd;
+    color: #666;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.footer a{
+    color: #2b90d4;
+}
+
+.footer .lbox .img{
+    width: 0.65rem;
+
+}
+.footer .lbox .img img{
+    width: 100%;
+}
+.footer .lbox .title{
+    font-size: 0.14rem;
+    padding: 0.09rem 0 0 0.12rem;
+}
+.footer .rbox {
+    text-align: right;
+}
+
+
