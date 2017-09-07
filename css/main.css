@@ -314,13 +314,55 @@ title{
 
 
 }
+
 .p5th .time-line{
     margin-left: 0.2rem;
-    border-left: 4px solid #ddd;
+    border-left: 3px solid #ddd;
     padding-left: 0.20rem;
+}
+
+.p5th .time {
+    position: absolute;
+    left: -0.31rem;
+    top:0;
+}
+
+.p5th .time .circle{
+    display: inline-block;
+    width: 0.20rem;
+    height: 0.20rem;
+    border-radius: 50%;
+    background: #2b90d4;
+    vertical-align: -3px;
+    font-size: 0.16rem;
+    margin-right: 0.05rem;
 }
 
 
 .p5th .time-line li{
     position: relative;
+    display: -webkit-box;
+    display: box;
+    padding: 0.5rem 0 0.3rem 0;
+
+}
+
+.p5th .time-line .icon{
+    margin-right: 0.2rem;
+}
+
+.p5th .time-line .c{
+    color: #81bc00;
+    font-size: 0.20rem;
+}
+
+.p5th .time-line .j{
+    color: #999;
+    font-size: 0.14rem;
+}
+
+.p5th .time-line .des{
+    padding-top: 0.10rem;
+    font-size: 0.16rem;
+    line-height: 0.28rem;
 }
