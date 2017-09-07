@@ -164,7 +164,7 @@ title{
 
 
 .p1th{
-    padding: 0.45rem 0 0rem 0;
+    padding: 0.40rem 0 0rem 0;
 }
 
 .p1th .title{
@@ -175,18 +175,20 @@ title{
     font-size: 0.38rem;
 }
 .p1th .des{
-    padding-top: 0.10rem;
+    padding-top: 0.05rem;
     font-size: 0.30rem;
     color: #999;
 }
+
+
+
 .p2th{
-    padding: 0.45rem 0 0.45rem 0;
+    padding: 0.40rem 0 0.40rem 0;
 }
 
 .p2th .list{
 
 }
-
 
 .p2th .list li{
     width: 100%;
@@ -200,6 +202,7 @@ title{
     position: relative;
 
 }
+
 .p2th .list li:before{
     content: '';
     width:3px;
@@ -238,9 +241,52 @@ title{
 }
 
 
+.p3th{
+    background: #fafafa;
+    padding: 0.30rem 0 0rem 0;
+    margin:0.40rem 0 0.4rem 0;
+}
 
+.p3th .title{
+    font-size: 0.38rem;
+}
+.p3th .des{
+    padding-top: 0.05rem;
+    font-size: 0.30rem;
+    color: #999;
+}
 
+.p3th .list{
+    padding: 0px 2rem 0 2rem;
+}
 
+.p3th li{
+    padding-top: 0.40rem;
+    padding-bottom: 0.40rem;
+    font-size: 0.30rem;
+    color: #999;
+    display: -webkit-box;
+    display: box;
+    
 
+}
 
+.p3th li:nth-child(1){
+    border-bottom: 1px dashed #cacaca;
+}
 
+.p3th  .img{
+    width: 2rem;
+    margin-right: 0.4rem;
+}
+
+.p3th  .img img{
+    border-radius: 10rem;
+    width: 100%;
+}
+.p3th  .txt{
+    padding-top: 0.5rem;
+    font-size: 0.20rem;
+    box-flex: 1;
+    -webkit-box-flex: 1;
+}
