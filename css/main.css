@@ -463,9 +463,8 @@ padding-right: 0.10rem;
 }
 
 .wap .header .list{
-    padding-top: 0.10rem;
+    padding-top: 0.07rem;
 }
-
 
 .wap .p1th,
 .wap .p2th,
@@ -473,7 +472,7 @@ padding-right: 0.10rem;
 .wap .p4th,
 .wap .p5th,
 .wap .p6th{
-
+    margin: 0.60rem 0 0rem 0;
 }
 .wap .footer{
     padding-left: 0.10rem;
@@ -485,7 +484,7 @@ padding-right: 0.10rem;
     width: auto
 }
 .wap .p3th  .txt{
-    /*padding-top: 0.08rem*/
+    padding-top: 0.48rem;
 }
 
 .wap .p5th .time-line .col{
