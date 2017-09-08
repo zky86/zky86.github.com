@@ -135,7 +135,7 @@ title{
 }
 .header .title{
     font-size: 0.18rem;
-    padding: 0.13rem 0 0 0.12rem;
+    padding: 0.15rem 0 0 0.12rem;
 }
 .header .list{
     display: -webkit-box;
@@ -365,17 +365,22 @@ title{
 .p6th .item-wrap{
     padding-top: 0.4rem;
 }
-.p6th .img{
+.p6th .img-area{
     width: 3rem;
     margin-left: 0.50rem;
+    
+}
+
+.p6th .img-area .img{
     padding: 0.04rem;
     border: 1px solid #eeeeee;
     box-shadow: 0.0rem 0.0rem 0.30rem rgba(0,0,0,.15)
 }
+
 .p6th .img img{
     width: 100%;
 }
-.p6th .tag{
+.p6th .tag .t{
     margin-top: 0.08rem;
 }
 .p6th .tag .t{
