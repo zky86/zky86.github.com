@@ -366,8 +366,11 @@ title{
     padding-top: 0.4rem;
 }
 .p6th .img{
-    width: 3.2rem;
+    width: 3rem;
     margin-left: 0.50rem;
+    padding: 0.04rem;
+    border: 1px solid #eeeeee;
+    box-shadow: 0.0rem 0.0rem 0.30rem rgba(0,0,0,.15)
 }
 .p6th .img img{
     width: 100%;
