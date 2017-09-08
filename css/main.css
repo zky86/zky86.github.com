@@ -493,6 +493,10 @@ padding-right: 0.10rem;
     padding-right: 0.10rem
 }
 
+.wap .p5th .time-line{
+    border-left: 1px solid #ddd;
+}
+
 .p5th .time{
     left: -0.31rem;
 }
@@ -504,7 +508,9 @@ padding-right: 0.10rem;
 .wap .footer p{
     padding-top: 0.0rem;
 }
-.wap .p5th .time-line{
-    border-left: 1px solid #ddd;
+
+
+.wap .footer .lbox .img{
+    padding-top: 0.05rem;
 }
 
