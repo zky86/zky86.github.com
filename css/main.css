@@ -484,15 +484,22 @@ padding-right: 0.10rem;
     width: auto
 }
 .wap .p3th  .txt{
-    padding-top: 0.48rem;
+    padding-top: 0.49rem;
 }
+
 
 .wap .p5th .time-line .col{
     padding-right: 0.10rem
 }
+
+.p5th .time{
+    left: -0.31rem;
+}
+
 .wap .footer{
     line-height: 0.32rem
 }
+
 .wap .footer p{
     padding-top: 0.0rem;
 }
