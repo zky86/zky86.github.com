@@ -60,21 +60,15 @@ table {
 * html .clearfix {
     zoom: 1;
 }
-/* IE6 */
-*:first-child+html .clearfix {
-    zoom: 1;
-}
-/* IE7 */
-textarea, input {
-    resize: none
-}
+
+
 a, textarea, input, button {
     outline: none
 }
-* {
+/** {
     -webkit-tap-highlight-color: transparent;
     -webkit-appearance: none;
-}
+}*/
 html, body {
     font-family: 'Microsoft YaHei', 'Verdana', 'SimSun';
     -ms-touch-action: none;
@@ -170,11 +164,6 @@ title{
 .p1th .title{
     font-size: 0.38rem;
 }
-.p1th .des{
-    font-size: 0.30rem;
-    color: #999;
-}
-
 
 .p2th{
     margin: 0.4rem 0 0.0rem 0;
@@ -234,10 +223,7 @@ title{
 .p3th .title{
     font-size: 0.38rem;
 }
-.p3th .des{
-    font-size: 0.30rem;
-    color: #999;
-}
+
 .p3th .list{
 }
 .p3th li{
@@ -334,6 +320,34 @@ title{
     line-height: 0.28rem;
 }
 
+.p5th .time-line .dl-class{
+    padding-top: 0.18rem;
+}
+
+.p5th .time-line .dl-class dt{
+    font-size: 0.18rem;
+    padding-bottom: 0.02rem;
+    font-weight: bold;
+}
+
+.p5th .time-line .dl-class dd{
+    padding-top: 0.05rem;
+    padding-left: 0.15rem;
+    margin-left: 0.05rem;
+    position: relative;
+    font-size: 0.16rem;
+}
+.p5th .time-line .dl-class dd:before{
+    content: '';
+    width:0.04rem;
+    background: #2289d4;
+    height: 0.04rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.15rem
+}
+
 
 .p6th{
     margin-top: 0.5rem;
@@ -343,10 +357,7 @@ title{
 .p6th .title{
     font-size: 0.38rem;
 }
-.p6th .des{
-    font-size: 0.30rem;
-    color: #999;
-}
+
 .p6th .item{
     display: -webkit-box;
     display: box;
@@ -395,6 +406,9 @@ title{
     margin-top: 0.08rem;
     font-size: 0.16rem;
     line-height: 0.24rem;
+}
+.p6th .info .list{
+    padding-top: 0.15rem;
 }
 .p6th .item li{
     margin-top: 0.05rem;
@@ -458,6 +472,16 @@ title{
 padding-left: 0.10rem;
 padding-right: 0.10rem;
 }
+
+.p1th .des,
+.p3th .des,
+.p6th .des{
+    font-size: 0.25rem;
+    padding-top: 0.05rem;
+    color: #999;
+}
+
+
 
 .footer{
 
