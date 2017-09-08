@@ -3,6 +3,8 @@
 *Author URI: https://github.com/zky86
 *qq: 272495222
 */
+
+
 /** 清除内外边距 **/
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
 dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
@@ -61,7 +63,6 @@ table {
     zoom: 1;
 }
 
-
 a, textarea, input, button {
     outline: none
 }
@@ -72,11 +73,10 @@ a, textarea, input, button {
 html, body {
     font-family: 'Microsoft YaHei', 'Verdana', 'SimSun';
     -ms-touch-action: none;
-}
-body {
     color: #333;
     font-size: 0.14rem;
 }
+
 .fl{
     float: 
 }
@@ -93,7 +93,7 @@ title{
     display: -webkit-box;
     display: box;
 }
-/* 两段居中 */
+/* 两端居中 */
 .webkit-box-pack-justify{
     box-pack: justify;
     -webkit-box-pack: justify;
@@ -164,6 +164,8 @@ title{
 .p1th .title{
     font-size: 0.38rem;
 }
+
+
 
 .p2th{
     margin: 0.4rem 0 0.0rem 0;
@@ -459,9 +461,7 @@ title{
 }
 
 
-.header{
-
-}
+.header{}
 
 .p1th,
 .p2th,
@@ -469,9 +469,10 @@ title{
 .p4th,
 .p5th,
 .p6th{
-padding-left: 0.10rem;
-padding-right: 0.10rem;
+    padding-left: 0.10rem;
+    padding-right: 0.10rem;
 }
+
 
 .p1th .des,
 .p3th .des,
@@ -480,13 +481,6 @@ padding-right: 0.10rem;
     padding-top: 0.05rem;
     color: #999;
 }
-
-
-
-.footer{
-
-}
-
 
 
 
@@ -500,7 +494,6 @@ padding-right: 0.10rem;
 .wap .header .list{
     padding-top: 0.12rem;
 }
-
 
 .wap .p1th,
 .wap .p2th,
@@ -545,17 +538,14 @@ padding-right: 0.10rem;
     padding-top: 0.0rem;
 }
 
-
 .wap .footer .lbox .img{
     padding-top: 0.07rem;
 }
-
 
 .animates {
     animation: pulsedb 10s infinite linear;
     -webkit-animation: pulsedb 10s infinite linear;
 }
-
 
 @-webkit-keyframes pulsedb {
   100% {
