@@ -529,6 +529,7 @@ padding-right: 0.10rem;
 
 .animates {
     animation: pulsedb 10s infinite linear;
+    -webkit-transition: pulsedb 10s infinite linear;
 }
 
 
