@@ -16,7 +16,7 @@ img/* img elements 图片元素 */ {
 }
 /** 设置默认字体 **/
 body, button, input, select, textarea {
-    font: 12px/1.5  "SimSun", Tahoma, Arial, sans-serif
+    font: 0.14rem/1.5  "SimSun", Tahoma, Arial, sans-serif
 }
 input, select, form img, button {
     vertical-align: middle;
