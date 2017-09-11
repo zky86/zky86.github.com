@@ -1,5 +1,5 @@
 /* 
-*Theme Name: 郑康源求职简历
+*Theme Name: 郑康源个人简历
 *Author URI: https://github.com/zky86
 *qq: 272495222
 */
@@ -431,6 +431,31 @@ title{
 }
 
 
+
+.p7th{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+.p7th .list{
+        padding-top: 0.10rem;
+        width: 6.8rem;
+        margin: 0 auto;
+        font-size: 0.16rem;
+}
+.p7th .list li{
+    padding-top: 0.15rem;
+    text-align: left;
+}
+
+.p7th .list .w{
+    width: 0.65rem;
+    display: inline-block;
+}
+
+
+
 /* 底部 */
 .footer{
     color: #a9a9a9;
@@ -454,12 +479,16 @@ title{
     font-size: 0.14rem;
     padding: 0.0rem 0 0 0.12rem;
 }
+
 .footer .rbox {
     text-align: right;
     box-flex: 1;
     -webkit-box-flex: 1;
+    padding-top: 0.0rem;
 }
-
+.footer .color-red{
+    color: #f00;
+}
 
 .header{}
 
@@ -542,10 +571,15 @@ title{
     padding-top: 0.07rem;
 }
 
+
+
+
+
 .animates {
     animation: pulsedb 10s infinite linear;
     -webkit-animation: pulsedb 10s infinite linear;
 }
+
 
 @-webkit-keyframes pulsedb {
   100% {
