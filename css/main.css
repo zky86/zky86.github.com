@@ -25,6 +25,7 @@ input, select, form img, button {
 }
 h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
+    font-weight: normal; */
 }
 em {
     font-style: normal;
@@ -450,7 +451,7 @@ title{
 
 .p7th .list{
         padding-top: 0.10rem;
-        width: 6.7rem;
+        width: 6.8rem;
         margin: 0 auto;
         font-size: 0.16rem;
 }
@@ -461,6 +462,12 @@ title{
 
 .p7th .list .w{
     width: 0.55rem;
+    display: inline-block;
+}
+
+.line{
+    border-bottom: 2px solid #0399e6;
+    padding-bottom: 0.05rem;
     display: inline-block;
 }
 
