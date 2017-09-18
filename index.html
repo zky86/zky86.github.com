@@ -296,6 +296,35 @@
 
 <script type="text/javascript">
 
+
+
+
+    (function(doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function() {
+        var clientWidth = docEl.clientWidth;
+        if (!clientWidth) return;
+
+        if(clientWidth<=768)
+        {
+            docEl.style.fontSize = (100 * (clientWidth / 375))/2 + 'px';
+        }
+        else
+        {
+            docEl.style.fontSize = (100*(768/375))/2 + 'px';
+        }
+
+
+        };
+        recalc();
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+
+
+
     if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i))
     {
         var j_html = document.getElementById("j_html");
