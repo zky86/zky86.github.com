@@ -438,7 +438,6 @@ title{
 }
 
 
-
 .p7th{
     padding-bottom: 0.5rem;
     margin-top: 0.5rem;
@@ -447,7 +446,7 @@ title{
 
 .p7th .list{
         padding-top: 0.10rem;
-        width: 6.8rem;
+        width: 6.9rem;
         margin: 0 auto;
         font-size: 0.16rem;
 }
@@ -460,6 +459,7 @@ title{
     width: 0.55rem;
     display: inline-block;
 }
+
 
 .line{
     border-bottom: 2px solid #0399e6;
