@@ -586,6 +586,10 @@ title{
 
 
 
+/* ipad */
+.ipad .main{
+    width: 10rem;
+}
 
 
 .animates {

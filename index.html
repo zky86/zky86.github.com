@@ -298,9 +298,6 @@
 
 <script type="text/javascript">
 
-
-
-
     (function(doc, win) {
         var docEl = doc.documentElement,
         resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
@@ -314,9 +311,8 @@
         }
         else
         {
-            docEl.style.fontSize = (100*(768/375))/2 + 'px';
+            // docEl.style.fontSize = (100*(768/375))/2 + 'px';
         }
-
 
         };
         recalc();
@@ -325,15 +321,18 @@
         doc.addEventListener('DOMContentLoaded', recalc, false);
     })(document, window);
 
-
-
+    var j_html = document.getElementById("j_html");
     if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i))
     {
-        var j_html = document.getElementById("j_html");
         j_html.style.fontSize= "50px";
         j_html.className ='wap';
     }
-
+    else if(navigator.userAgent.match(/(Ipad)/i))
+    {
+        j_html.className ='ipad';
+    }   
+    
 </script>
+
 </body>
 </html>   
