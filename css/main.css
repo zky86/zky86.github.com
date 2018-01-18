@@ -399,9 +399,15 @@ title{
 
 .p6th .img-area .img{
     padding: 0.04rem;
+    transition: opacity .2s;
     border: 1px solid #eeeeee;
     box-shadow: 0.0rem 0.0rem 0.30rem rgba(0,0,0,.15)
 }
+.p6th .img-area .img:hover
+{
+    opacity: .8;
+}
+
 
 .p6th .img img{
     width: 100%;
