@@ -143,6 +143,12 @@ title{
     display: box;
     margin-left: 0.30rem; 
 }
+.header .list li a{}
+.header .list li a:hover{
+    text-decoration: none;
+    color: #6cdb5d;
+    transition: color .3s;
+}
 .header .list img{
     vertical-align: middle;
     width: 0.26rem;
@@ -436,7 +442,11 @@ title{
 .p6th .link a{
     color: #0399e6;
 }
-
+.p6th .link a:hover{
+    color: #6cdb5d;
+    transition: color .3s;
+    text-decoration: none;
+}
 
 .p7th{
     padding-bottom: 0.5rem;
@@ -478,6 +488,12 @@ title{
 }
 .footer a{
     color: #2b90d4;
+}
+
+.footer a:hover{
+    color: #6cdb5d;
+    transition: color .3s;
+    text-decoration: none;
 }
 .footer .cor{
     color: #2b90d4;
