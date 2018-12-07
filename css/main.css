@@ -411,6 +411,7 @@ title{
 
 .p6th .img img{
     width: 100%;
+    display: block;
 }
 .p6th .tag .t{
     margin-top: 0.08rem;
@@ -430,6 +431,14 @@ title{
 }
 .p6th .info .list{
     padding-top: 0.15rem;
+}
+.p6th .info .list a{
+    color: #0399e6
+}
+.p6th .info .list a:hover{
+    color: #6cdb5d;
+    transition: color .3s;
+    text-decoration: none;
 }
 .p6th .item li{
     margin-top: 0.05rem;
