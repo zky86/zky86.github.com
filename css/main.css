@@ -133,15 +133,17 @@ title{
     padding: 0.15rem 0 0 0.12rem;
 }
 .header .list{
-    display: -webkit-box;
+    /*display: -webkit-box;*/
     padding-top: 0.15rem;
-    box-pack: end;
-    -webkit-box-pack: end;
+    text-align: right;
+    /*box-pack: end;*/
+    /*-webkit-box-pack: end;*/
 }
 .header .list li{
-    display: -webkit-box;
-    display: box;
+   /* display: -webkit-box;
+    display: box;*/
     margin-left: 0.30rem; 
+    display: inline-block;
 }
 .header .list li a{}
 .header .list li a:hover{
@@ -481,7 +483,7 @@ title{
 }
 
 .p7th .list .w{
-    width: 0.55rem;
+    width: 0.75rem;
     display: inline-block;
 }
 
