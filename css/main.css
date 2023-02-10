@@ -476,7 +476,7 @@ title{
 
 .p7th .list{
         padding-top: 0.10rem;
-        width: 6.9rem;
+        width: 8.5rem;
         margin: 0 auto;
         font-size: 0.16rem;
 }
@@ -629,8 +629,8 @@ title{
 
 
 .animates {
-    animation: pulsedb 10s infinite linear;
-    -webkit-animation: pulsedb 10s infinite linear;
+    /*animation: pulsedb 10s infinite linear;
+    -webkit-animation: pulsedb 10s infinite linear;*/
 }
 
 
